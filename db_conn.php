@@ -5,9 +5,9 @@
 
    $db_name = "test_db";
 
-   $conn = mysqli_connect($name, $uname, $password, $db_name);
+   $conn = mysqli_connect($sname, $uname, $password, $db_name);
 
    if (!$conn) {
-      echo "khona ngxaki men!!!";
+      echo "Connection Failed!!";
    }
-?>
+?> 
